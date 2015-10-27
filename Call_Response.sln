@@ -3,19 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Call And Response", "Call And Response", "{95D10958-D760-46BC-9722-285FED80C270}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Call_Response", "Call_Response", "{95D10958-D760-46BC-9722-285FED80C270}"
 EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Call And Response.Shared", "Call And Response\Call And Response.Shared\Call And Response.Shared.shproj", "{8E917F85-948B-4317-BC46-49ED1AAC100A}"
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Call_Response.Shared", "Call_Response\Call_Response.Shared\Call_Response.Shared.shproj", "{8E917F85-948B-4317-BC46-49ED1AAC100A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Call And Response.Windows", "Call And Response\Call And Response.Windows\Call And Response.Windows.csproj", "{3A89EAEF-786C-4EE4-A05E-99239AC6F768}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Call_Response.Windows", "Call_Response\Call_Response.Windows\Call_Response.Windows.csproj", "{3A89EAEF-786C-4EE4-A05E-99239AC6F768}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Call And Response.WindowsPhone", "Call And Response\Call And Response.WindowsPhone\Call And Response.WindowsPhone.csproj", "{274677AC-80F1-4578-AEEA-0D03C2EA1117}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Call_Response.WindowsPhone", "Call_Response\Call_Response.WindowsPhone\Call_Response.WindowsPhone.csproj", "{274677AC-80F1-4578-AEEA-0D03C2EA1117}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		Call And Response\Call And Response.Shared\Shared.Application.Shared.projitems*{274677ac-80f1-4578-aeea-0d03c2ea1117}*SharedItemsImports = 4
-		Call And Response\Call And Response.Shared\Shared.Application.Shared.projitems*{3a89eaef-786c-4ee4-a05e-99239ac6f768}*SharedItemsImports = 4
-		Call And Response\Call And Response.Shared\Shared.Application.Shared.projitems*{8e917f85-948b-4317-bc46-49ed1aac100a}*SharedItemsImports = 13
+		Call_Response\Call_Response.Shared\Shared.Application.Shared.projitems*{274677ac-80f1-4578-aeea-0d03c2ea1117}*SharedItemsImports = 4
+		Call_Response\Call_Response.Shared\Shared.Application.Shared.projitems*{3a89eaef-786c-4ee4-a05e-99239ac6f768}*SharedItemsImports = 4
+		Call_Response\Call_Response.Shared\Shared.Application.Shared.projitems*{8e917f85-948b-4317-bc46-49ed1aac100a}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
