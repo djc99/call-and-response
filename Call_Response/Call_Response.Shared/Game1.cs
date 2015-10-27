@@ -2,6 +2,8 @@
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Content;
 
+using Model;
+
 namespace Call_And_Response
 {
     /// <summary>
@@ -11,6 +13,8 @@ namespace Call_And_Response
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
+
+        EchoField echoField;
 
         public Game1()
         {
@@ -38,6 +42,9 @@ namespace Call_And_Response
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
             // TODO: use this.Content to load your game content here
+
+            echoField = new EchoField();
+            echoField.Initialize(Content.Load<Texture2D>("white.png"));
         }
 
         /// <summary>
@@ -68,6 +75,12 @@ namespace Call_And_Response
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.DarkGray);
+
+            spriteBatch.Begin();
+
+            echoField.Draw(spriteBatch);
+
+            spriteBatch.End();
 
             base.Draw(gameTime);
         }

@@ -106,8 +106,11 @@ namespace Model
                 }
 
                 //then draw!
-                //spriteBatch.Draw(echoTexture, new Vector2(50, 50), Color.LightGoldenrodYellow);
+                spriteBatch.Draw(echoTexture, new Vector2(50, 50), Color.LightGoldenrodYellow);
             }
+
+            // so we know this is drawing
+            spriteBatch.Draw(echoTexture, new Vector2(50, 50), Color.Red);
         }
 
         #endregion
